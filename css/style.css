@@ -1,0 +1,65 @@
+body{
+  background:#52dc7b;
+  transition:background-color 0.6s;
+}
+main{
+  background:#ffffff;
+  margin:200px auto 0;
+  max-width:500px;
+  padding:20px;
+  box-shadow:2px 2px 4px rgba(0, 0, 0, 0.2);
+  /*border:1px red solid;*/
+  overflow: auto;
+  color:#52dc7b;
+  border-radius:20px;
+}
+.quote-content{
+  text-align:left;
+  font-size:1.5em;
+  text-align:center;
+}
+.quote-content>p:before{
+  content:"\f10d";
+  font-size:1.5em;
+  font-family:FontAwesome;
+  margin-right:4px;
+}
+.quote-author{
+  text-align:right;
+  font-size:1.2em;
+}
+.icon-button{
+  display:inline-block;
+  text-align:center;
+  font-size:1.4em;
+  margin:5px;
+  width:35px;
+  height:35px;
+  line-height:35px;
+  border-radius:5px;
+  cursor:pointer;
+}
+.icon-button:hover{
+  opacity:0.8;
+}
+.quote-actions>div{
+  color:white;
+  background:#52dc7b;
+  transition:background-color 0.6s;
+}
+.quote-actions a:visited,.quote-actions a:link,.quote-actions a:active{
+  color:white;
+}
+.quote-actions>.share-quote{
+  float:left;
+}
+.quote-actions>.next-quote{
+  float:right;
+}
+.quote-actions+*{
+  clear:both;
+}
+footer{
+  text-align:center;
+  color:white;
+}

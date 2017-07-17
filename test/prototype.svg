@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="960"
+   height="1500"
+   viewBox="0 0 254 396.875"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 unknown"
+   sodipodi:docname="prototype.svg">
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter6085">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood6075" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite6077" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur6079" />
+      <feOffset
+         dx="1"
+         dy="1"
+         result="offset"
+         id="feOffset6081" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite6083" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1324088"
+     inkscape:cx="476.62808"
+     inkscape:cy="1215.6641"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1315"
+     inkscape:window-height="744"
+     inkscape:window-x="51"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,99.874969)"
+     style="opacity:1">
+    <rect
+       style="opacity:1;fill:#8de832;fill-opacity:1;stroke:#008080;stroke-width:0.02645833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;fill-rule:nonzero"
+       id="rect4487"
+       width="255.60925"
+       height="194.39386"
+       x="-0.80462646"
+       y="-100.19899" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#008080;stroke-width:0.02515602;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect4489"
+       width="135.48734"
+       height="54.81699"
+       x="60.375927"
+       y="-38.2076"
+       rx="5.0972438"
+       ry="4.9660192" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666667px;line-height:125%;font-family:Lobster;-inkscape-font-specification:'Lobster, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;opacity:0.98999999;fill:#8de832;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="73.071808"
+       y="-19.737835"
+       id="text4493"><tspan
+         sodipodi:role="line"
+         id="tspan4491"
+         x="73.071808"
+         y="-19.737835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666667px;font-family:Lobster;-inkscape-font-specification:'Lobster, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#8de832;fill-opacity:1;stroke-width:0.26458332px;">I'm quote,I'm quote</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.10359955px;line-height:125%;font-family:Lobster;-inkscape-font-specification:'Lobster, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40258974px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="70.158928"
+       y="-56.087208"
+       id="text6089"
+       transform="scale(0.96703718,1.0340864)"><tspan
+         sodipodi:role="line"
+         id="tspan6087"
+         x="70.158928"
+         y="-56.087208"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.10359955px;font-family:Lobster;-inkscape-font-specification:'Lobster, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.40258974px">RANDOM QUOTE</tspan></text>
+    <rect
+       style="opacity:0.98999999;fill:#8de832;fill-opacity:1;fill-rule:nonzero;stroke:#008080;stroke-width:0.03126995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect6091"
+       width="12.720395"
+       height="7.0614309"
+       x="71.108376"
+       y="3.8242173" />
+    <rect
+       y="3.8242173"
+       x="92.136848"
+       height="7.0614309"
+       width="12.720395"
+       id="rect6093"
+       style="opacity:0.98999999;fill:#8de832;fill-opacity:1;fill-rule:nonzero;stroke:#008080;stroke-width:0.03126995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+    <rect
+       style="opacity:0.98999999;fill:#8de832;fill-opacity:1;fill-rule:nonzero;stroke:#008080;stroke-width:0.03126995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect6095"
+       width="12.720395"
+       height="7.0614309"
+       x="113.16529"
+       y="3.8242173" />
+    <rect
+       y="3.8258591"
+       x="172.51172"
+       height="6.7277179"
+       width="15.261628"
+       id="rect6097"
+       style="opacity:0.98999999;fill:#8de832;fill-opacity:1;fill-rule:nonzero;stroke:#008080;stroke-width:0.03343219;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+    <text
+       id="text6101"
+       y="-9.1545029"
+       x="73.071808"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666667px;line-height:125%;font-family:Lobster;-inkscape-font-specification:'Lobster, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;opacity:0.98999999;fill:#8de832;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666667px;font-family:Lobster;-inkscape-font-specification:'Lobster, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#8de832;fill-opacity:1;stroke-width:0.26458332px;"
+         y="-9.1545029"
+         x="73.071808"
+         id="tspan6099"
+         sodipodi:role="line">I'm quote,I'm quote</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.14060974px;line-height:125%;font-family:Lobster;-inkscape-font-specification:'Lobster, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.24096504px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="167.49699"
+       y="9.4030113"
+       id="text6105"
+       transform="scale(1.0337927,0.96731191)"><tspan
+         sodipodi:role="line"
+         id="tspan6103"
+         x="167.49699"
+         y="9.4030113"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.14060974px;font-family:Lobster;-inkscape-font-specification:'Lobster, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.24096504px">NEXT</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="content">Hello World</div>
+    <script type="text/javascript">
+      let quoteAPI="http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=2&callback=";
+      $.getJSON(quoteAPI,(j)=>{
+        console.log(j);
+        $("#content").text(j[0].content);
+      });
+    </script>
+  </body>
+</html>
