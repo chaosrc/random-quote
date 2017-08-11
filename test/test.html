@@ -7,15 +7,45 @@
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <!-- <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script> -->
   </head>
   <body>
-    <div id="content">Hello World</div>
+    <div class="position1">
+      <button class="geoposition">Common Geo</button>
+      <p class="latitude"></p>
+      <p class="longitude"></p>
+    </div>
+    <div class="position2">
+      <button  class="geoposition2">Accuracy Geo</button>
+      <p class="latitude"></p>
+      <p class="longitude"></p>
+    </div>
     <script type="text/javascript">
-      let quoteAPI="http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=2&callback=";
-      $.getJSON(quoteAPI,(j)=>{
-        console.log(j);
-        $("#content").text(j[0].content);
+      function getPosition(success,error,option){
+        navigator.geolocation.getCurrentPosition((position)=>{
+          success(position.coords.latitude,position.coords.longitude)
+        },error,{
+          enableHightAccuracy:option||false
+        });
+      }
+      $(".geoposition").click(()=>{
+        getPosition((lat,long)=>{
+          $(".position1 .latitude").html(lat+'');
+          $(".position1 .longitude").html(long+'');
+        },geoError,false);
       });
+      $(".geoposition2").click(()=>{
+        getPosition((lat,long)=>{
+          console.log(lat,long);
+          $(".position2 .latitude").html(lat);
+          $(".position2 .longitude").html(long);
+        },geoError,true)
+      });
+
+      function geoError(){
+        alert("Geolocation Error!");
+      }
     </script>
   </body>
 </html>

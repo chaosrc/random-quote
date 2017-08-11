@@ -1,4 +1,5 @@
-let sinaURL='http://v.t.sina.com.cn/share/share.php?title=';
+let sinaURL="http://v.t.sina.com.cn/share/share.php?title=";
+let twitterURL="http://twitter.com/share?text=";
 let quoteAPI="http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=10";
 
 let nextButton=document.getElementsByClassName('next-quote')[0];
@@ -134,7 +135,7 @@ function JSONP(option){
   script.src=url;
   document.body.appendChild(script);
 }
-
+let decodeEntities=decodeHTML();
 function updateView(quote,color){
   eachElement('body,.quote-actions>div',function(ele){
     ele.style.background=color;
@@ -146,8 +147,16 @@ function updateView(quote,color){
     $(".quote-author").css({"color":color}).html("--"+quote.title);
     $(this).animate({opacity:1},300);
   });
+  // let quoteStr=quote.quote.slice(3,-5);
+  let quoteStr=quote.quote.match(/<p>(.*)<\/p>/)[1];
+  console.log('quote str',quoteStr);
+  quoteStr=decodeEntities(quoteStr);
+  console.log('quote str',quoteStr);
   let weibo=document.querySelectorAll(".share-weibo")[0];
-  weibo.href=sinaURL+encodeURI(quote.quote.match(/<p>(.*)<\/p>/)[1]+"\r\n"+"--"+quote.title);
+  weibo.href=sinaURL+encodeURI(quoteStr+"\r\n"+"--"+quote.title);
+
+  let twitter=document.querySelectorAll(".share-twitter")[0];
+  twitter.href=twitterURL+encodeURI(quoteStr+"\r\n"+"--"+quote.title);
   // eachElement('.quote-content',function(ele){
   //   ele.innerHTML=quote.quote;
   //   ele.style.color=color;
@@ -156,6 +165,14 @@ function updateView(quote,color){
   //   ele.innerHTML='-- '+quote.title;
   //   ele.style.color=color;
   // });
+}
+
+function decodeHTML(){
+  let holder=document.createElement('div');
+  return function(str){
+    holder.innerHTML=str;
+    return holder.innerHTML;
+  };
 }
 
 function eachElement(selector,cb){
